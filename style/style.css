@@ -95,7 +95,6 @@ body {
 .header.sticky #darkMode-icon {
     color: var(--main-color);
     opacity: .9;
-
 }
 
 section {
@@ -285,4 +284,48 @@ span {
     font-size: 1.3rem;
     margin: 2rem 0 3rem;
 }
+
+.services {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2 rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem var(--shadow-color);
+    text-align: center;
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+}
+
+.services-box i {
+    font-size: 5rem;
+    color: var(--main-color)
+}
+
+.services-box h3 {
+    font-size: 2rem;
+}
+
+.services-box p {
+    font-size: 1rem;
+    margin: 1rem 0 3rem;
+}
+
+
 
